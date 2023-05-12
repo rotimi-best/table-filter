@@ -9,7 +9,7 @@
 		console.log('_value', _value);
 		filteredTable = tables.filter(table => {
 			const loweredguests = table.guests.map(g => g.toLowerCase());
-			return loweredguests.some(g => g.includes(_value))
+			return loweredguests.some(g => g.includes(_value.toLowerCase()))
 		})
 	}
 
