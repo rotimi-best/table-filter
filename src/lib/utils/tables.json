@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "label": "Table One",
+    "guests": [
+      "Iwuala Ugochukwu Solomon",
+      "Iwuala Chizoba Juliana"
+    ]
+  },
+  {
+    "id": 2,
+    "label": "Table Two",
+    "guests": [
+      "Eze Izuchukwu",
+      "Eze Febechukwu Miriam",
+      ""
+    ]
+  },
+  {
+    "id": 3,
+    "label": "Table Three",
+    "guests": [
+      "Ibitoye Rotimi Best",
+      "Ibitoye Chioma Blessing",
+      ""
+    ]
+  },
+  {
+    "id": 4,
+    "label": "Table Four",
+    "guests": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": 5,
+    "label": "Table Five",
+    "guests": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": 6,
+    "label": "Table Six",
+    "guests": [
+      "",
+      "",
+      ""
+    ]
+  },{
+    "id": 7,
+    "label": "Table Seven",
+    "guests": [
+      "",
+      "",
+      ""
+    ]
+  },{
+    "id": 8,
+    "label": "Table Eight",
+    "guests": [
+      "",
+      "",
+      ""
+    ]
+  },{
+    "id": 9,
+    "label": "Table Nine",
+    "guests": [
+      "",
+      "",
+      ""
+    ]
+  },{
+    "id": 10,
+    "label": "Table Ten",
+    "guests": [
+      "",
+      "",
+      ""
+    ]
+  }
+]
