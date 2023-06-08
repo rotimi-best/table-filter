@@ -1,5 +1,5 @@
- <div class="app">
-	<main>
-		<slot />
-	</main>
+<div class="app">
+  <main>
+    <slot />
+  </main>
 </div>
