@@ -16,7 +16,7 @@
     </li>
   </ul>
 </nav>
-<header class="header">
+<header class="header" id="home">
   <div class="container">
     <nav class="header__nav">
       <div class="logo">
