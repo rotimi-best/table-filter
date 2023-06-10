@@ -22,7 +22,7 @@
 </svelte:head>
 
 <section class="root">
-  <h1 class="header">Oribi/Francis Wedding Table App</h1>
+  <h1 class="table-header">Oribi/Francis Wedding Table App</h1>
 
   <form class="form-container">
     <TextInput
@@ -34,7 +34,7 @@
     />
   </form>
 
-  <div>
+  <div class="list-container">
     {#each filteredTable as table}
       <div class="grid">
         <h2>{table.label}</h2>
@@ -54,7 +54,7 @@
     margin: 0 auto;
   }
 
-  .header {
+  .table-header {
     margin: 10px;
     text-align: center;
   }
@@ -66,15 +66,28 @@
     margin: 20px auto;
   }
 
+  .list-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
   .grid {
-    border: 1px solid gray;
-    border-radius: 20px;
+    border-radius: 0.375rem;
     padding: 10px;
     margin-bottom: 20px;
+    max-width: 250px;
+    width: 100%;
+    min-height: 370px;
+    background-color: rgba(243, 244, 246, 1);
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   .grid h2 {
     margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 1.25rem;
   }
 
   .name {

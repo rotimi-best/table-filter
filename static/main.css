@@ -1,25 +1,4 @@
 @charset "UTF-8";
-@font-face {
-  font-family: 'roboto-example';
-  font-weight: normal;
-  font-style: normal;
-  src: url('../fonts/RobotoRegular/RobotoRegular.eot');
-  src: url('../fonts/RobotoRegular/RobotoRegular.eot?#iefix')
-      format('embedded-opentype'),
-    url('../fonts/RobotoRegular/RobotoRegular.woff') format('woff'),
-    url('../fonts/RobotoRegular/RobotoRegular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'roboto-example';
-  font-weight: bold;
-  font-style: normal;
-  src: url('../fonts/RobotoBold/RobotoBold.eot');
-  src: url('../fonts/RobotoBold/RobotoBold.eot?#iefix')
-      format('embedded-opentype'),
-    url('../fonts/RobotoBold/RobotoBold.woff') format('woff'),
-    url('../fonts/RobotoBold/RobotoBold.ttf') format('truetype');
-}
 
 ::-webkit-input-placeholder {
   color: #666;
@@ -56,7 +35,7 @@ body {
   min-width: 320px;
   position: relative;
   line-height: 1.65;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   overflow-x: hidden;
   color: #615869;
