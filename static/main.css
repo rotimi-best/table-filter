@@ -845,13 +845,13 @@ ul.color_schemes li {
 .couple__image-groom--left::after {
   top: -60px;
   left: 60px;
-  /* background-image: url('groom.jpeg'); */
+  background-image: url('groom.png');
 }
 
 .couple__image-bride--right::after {
   top: -60px;
   right: 60px;
-  /* background-image: url('bride.jpeg'); */
+  background-image: url('bride.png');
 }
 
 /*1.2 END Couple*/
@@ -1738,6 +1738,10 @@ ul.color_schemes li {
 
 .support {
   padding-top: 112px;
+  padding-bottom: 185px;
+}
+.support.pictures {
+  padding-top: 0px !important;
   padding-bottom: 185px;
 }
 .support .container {

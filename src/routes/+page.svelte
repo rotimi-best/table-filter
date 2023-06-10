@@ -45,10 +45,13 @@
     <div class="header__content">
       <div class="header__title-wrapper">
         <h1 class="header__title">Francis Oribi</h1>
-        <span class="header__subtitle"
-          >Are getting married <br />
-          June 10, 2023</span
-        >
+        <span class="header__subtitle">
+          Are getting married <br />
+          June 10, 2023
+        </span><br />
+        <a class="btn bg--colored" type="button" href="/table">
+          Find your Seat
+        </a>
       </div>
     </div>
     <div class="header__countdown">
@@ -143,21 +146,25 @@
           <div class="venues__card-info">
             <div class="venues__card-block">
               <span class="venues__card-label mrg">When</span>
-              <time class="venues__card-data">11:30, May 16th, 2020</time>
+              <time class="venues__card-data">10:00, June 10th, 2023</time>
             </div>
             <div class="venues__card-block">
               <span class="venues__card-label">Where</span><span
                 class="venue__card-data"
-                >Saint Thomas Church Fifth Avenue 1 W 53rd St, New York, NY
-                10019</span
+                >St Edward's R C Church - Raddlebarn Rd, Selly Oak, Birmingham
+                B29 7DB</span
               >
             </div>
           </div>
-          <a class="venues__card-link" href="#">See on map</a>
+          <a
+            class="venues__card-link"
+            target="_blank"
+            href="https://maps.app.goo.gl/bAtF61NVKAW35W859">See on map</a
+          >
         </div>
         <div class="address__map-container--left address__map">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.3390713304057!2d-1.9904844228636231!3d52.52729913568848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48709808efcca419%3A0x9d1674db5bcbe894!2sSandwell%20General%20Hospital!5e0!3m2!1sen!2suk!4v1686141387213!5m2!1sen!2suk"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2432.1314572158126!2d-1.9256637999999997!3d52.4405334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bc2d13a578d3%3A0xb1b257e8e1f186f2!2sSt%20Edward&#39;s%20R%20C%20Church!5e0!3m2!1sen!2suk!4v1686363321160!5m2!1sen!2suk"
             width="600"
             height="450"
             style="border:0;"
@@ -172,26 +179,29 @@
       <div class="venues__reception">
         <div class="reception__card venues__card border--colored">
           <div class="venues__card-head text--colored">
-            <h3 class="venues__card-title text--colored">Wedding Ceremony</h3>
+            <h3 class="venues__card-title text--colored">Reception</h3>
           </div>
           <div class="venues__card-info">
             <div class="venues__card-block">
               <span class="venues__card-label mrg">When</span>
-              <time class="venues__card-data">11:30, May 16th, 2020</time>
+              <time class="venues__card-data">12:00, June 10th, 2023</time>
             </div>
             <div class="venues__card-block">
               <span class="venues__card-label">Where</span><span
                 class="venue__card-data"
-                >Saint Thomas Church Fifth Avenue 1 W 53rd St, New York, NY
-                10019</span
+                >136-148 Victoria Rd, Birmingham B6 5HH</span
               >
             </div>
           </div>
-          <a class="venues__card-link" href="#">See on map</a>
+          <a
+            class="venues__card-link"
+            target="_blank"
+            href="https://maps.app.goo.gl/c3yBGFQTGcquYk8b7">See on map</a
+          >
         </div>
         <div class="address__map-container--right address__map">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.3390713304057!2d-1.9904844228636231!3d52.52729913568848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48709808efcca419%3A0x9d1674db5bcbe894!2sSandwell%20General%20Hospital!5e0!3m2!1sen!2suk!4v1686141387213!5m2!1sen!2suk"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.6984967680037!2d-1.8909872000000003!3d52.502697100000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bca4f60ae107%3A0xe761eb1929361e37!2sIqbal%20Banqueting%20Hall!5e0!3m2!1sen!2suk!4v1686364218942!5m2!1sen!2suk"
             width="600"
             height="450"
             style="border:0;"
@@ -225,7 +235,30 @@
     </div>
     <div class="support__btn-wrap">
       <span class="support__btn-sescr">You can make a donation here</span>
-      <button class="btn support__btn bg--colored" type="button">Donate</button>
+      <a
+        class="btn support__btn bg--colored"
+        type="button"
+        href="https://buy.stripe.com/28o15ldkF97dgHS9AB"
+        target="_blank">Donate</a
+      >
+    </div>
+  </div>
+</section>
+<section class="support pictures">
+  <div class="container">
+    <div class="support__title-wrap">
+      <h2 class="support__title">Share your pictures</h2>
+    </div>
+    <div class="support__btn-wrap">
+      <span class="support__btn-sescr"
+        >Let's experience our wedding through your lenses</span
+      >
+      <a
+        class="btn support__btn bg--colored"
+        type="button"
+        href="https://photos.app.goo.gl/g6X5rrZHioR3o1Dr8"
+        target="_blank">Join Photo Album</a
+      >
     </div>
   </div>
 </section>
