@@ -37,12 +37,15 @@
   <div class="list-container">
     {#each filteredTable as table}
       <div class="grid">
-        <h2>{table.label}</h2>
-        <ul>
+        <div>
+          <h2>{table.label}</h2>
+          <p>Total: {table.guests.length}</p>
+        </div>
+        <ol>
           {#each table.guests as guest}
             <li class="name">{guest}</li>
           {/each}
-        </ul>
+        </ol>
       </div>
     {/each}
   </div>
@@ -84,8 +87,12 @@
     margin-right: 5px;
   }
 
+  ol {
+    list-style: auto;
+    padding: 0px 15px;
+  }
+
   .grid h2 {
-    margin-bottom: 10px;
     font-weight: 700;
     font-size: 1.25rem;
   }
