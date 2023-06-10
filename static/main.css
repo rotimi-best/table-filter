@@ -611,6 +611,12 @@ ul.color_schemes li {
   padding: 40px 145px 44px 145px;
 }
 
+.header__countdown .btn {
+  margin-top: 15px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
 .countdown__title {
   font-size: 32px;
   line-height: 44px;

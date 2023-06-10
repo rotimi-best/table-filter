@@ -48,10 +48,7 @@
         <span class="header__subtitle">
           Are getting married <br />
           June 10, 2023
-        </span><br />
-        <a class="btn bg--colored" type="button" href="/table">
-          Find your Seat
-        </a>
+        </span>
       </div>
     </div>
     <div class="header__countdown">
@@ -80,6 +77,9 @@
           >
         </div>
       </div>
+      <a class="btn bg--colored" type="button" href="/table">
+        Find your Seat
+      </a>
     </div>
   </div>
 </header>
